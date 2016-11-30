@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "genero": {
+      "type":     "text",
+      "fielddata": true
+    },
+    "tags": {
+      "type":     "text",
+      "fielddata": true
+    }
+  }
+}
