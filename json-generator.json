@@ -1,0 +1,15 @@
+// JSON para gerar os dados do Bulk em http://www.json-generator.com/
+[
+  '{{repeat(5, 1000)}}',
+  {
+    nome: '{{firstName()}} {{surname()}}',
+    idade: '{{integer(20, 40)}}',
+    genero: '{{gender()}}',
+    matricula: '{{date(new Date(2016, 5, 1), new Date(2016,5,30), "YYYY-MM-ddThh:mm:ss Z")}}',
+    tags: [
+      '{{repeat(3)}}',
+      '{{lorem(1, "words")}}'
+    ]
+    
+  }
+]
